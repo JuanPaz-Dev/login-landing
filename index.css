@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #dbdbdbcb;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,13,17,1) 100%, rgba(0,212,255,1) 100%);
 }
 .image-login
 {
@@ -47,8 +48,7 @@ body{
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 10%;
-    border: 3px solid #0f6067;
-    box-shadow: -5px 5px 11px 4px rgba(45, 51, 52, 0.75);
+    box-shadow: 0px 5px 31px 16px #000000;
     width: 360px;
     height: 400px;
 }
@@ -66,10 +66,14 @@ input{
     border-radius: 3px;
     cursor: pointer;
 }
+.entrar:hover
+{
+    background-color: #d6073eab;
+}
 
 .entrar
 {
-    background-color: #0f6067;
+    background-color: #d6073f;
     color: #ffffff;
 }
 p{
