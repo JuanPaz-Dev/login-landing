@@ -5,8 +5,9 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,13,17,1) 100%, rgba(0,212,255,1) 100%);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
 }
 .image-login
 {
@@ -19,8 +20,8 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
 
+}
 
 .container
 {
@@ -47,23 +48,26 @@ body{
     align-items:center;
     flex-direction: column;
     background-color: #ffffff;
-    border-radius: 10%;
-    box-shadow: 0px 5px 31px 16px #000000;
-    width: 360px;
-    height: 400px;
+    border-radius: 15px 55px;
+    box-shadow: 0px 20px 20px 15px #240417c1;
+    width: 300px;
+    height: 500px;
 }
 input{
     height:2rem;
     padding-left: 5px;
+    margin: 10px;
+    border: 1px solid #808080;
+    border-radius: 4px;
 }
 
 .entrar, .password
 {   
-    margin: 10px;
+    margin-top: 30px;
     width: 180px;
     height: 30px;
-    border: 2px solid black;
-    border-radius: 3px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
     cursor: pointer;
 }
 .entrar:hover
@@ -73,11 +77,13 @@ input{
 
 .entrar
 {
-    background-color: #d6073f;
+    background-color: #cb57bc;
     color: #ffffff;
 }
 p{
-    margin:10px;
-    font-size: 25px;
+    margin:20px 0px;
+    color: #f56cc3;
+    font-variant: small-caps;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
